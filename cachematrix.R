@@ -3,6 +3,13 @@
 
 ## Write a short comment describing this function
 
+#The first function, makeCacheMatrix creates a matrix
+
+#set the value of the matrix
+#get the value of the matrix
+#set the value of the inverse
+#get the value of the inverse
+
 makeCacheMatrix <- function(x = matrix()) {
      m <- NULL
      set <- function(y) {
@@ -19,7 +26,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#Checks if the matrix inverse exists, if doesn't exit then calculates and returns it
+#else it returns cached value
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
      m <- x$getinverse()
